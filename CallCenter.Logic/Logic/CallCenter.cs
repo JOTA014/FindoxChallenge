@@ -10,9 +10,6 @@ namespace CallCenter.Logic.Logic
 {
     public class CallCenter
     {
-        //List<Agent> Agents = new List<Agent>();
-        //List<Manager> Managers = new List<Manager>();
-
         ObservableCollection<Agent> Agents = new ObservableCollection<Agent>();
         ObservableCollection<Manager> Managers = new ObservableCollection<Manager>();
         Queue<int> callQueue = new Queue<int>();
